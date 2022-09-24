@@ -1,26 +1,20 @@
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
 }
 
 header {
     width: 100%;
     background-color: #373C45;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: flex;
-    padding-left: 100px;
-}
-
-.tickets:hover{
-    color: green;
+    display: inline-block;
+    padding-left: 70px;
 }
 
 .imgprincipal{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(ba1.jpg);
     background-size: 100% 100%;
     min-height: 90vh;
+    display: block;
 }
 
 .charla {
@@ -29,20 +23,14 @@ header {
   color: black;
 }
 
-.texto-conf {
-    padding-top: 300px;
-    padding-right: 50px;
-}
-
 .tarjetas {
     display: flex;
     justify-content: space-evenly;
-
 }
 
-.know-content{
-    background-color: #343c44;
-    }
+.textohonolulu {
+    font-weight: light;
+}
 
 h6 {
     text-align: center;
@@ -62,6 +50,10 @@ h2 {
     display: flex;
 }
 
+.know-content{
+    background-color: #343c44;
+    }
+
 .orador {
     margin: auto;
     text-align: center;
@@ -71,7 +63,6 @@ h2 {
     background-color: #a7d12d;
     border: none;
 }
-
 
 footer {
     width: 100%;
