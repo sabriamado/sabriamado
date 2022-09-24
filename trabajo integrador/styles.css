@@ -13,14 +13,9 @@ header {
 .imgprincipal{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(ba1.jpg);
     background-size: 100% 100%;
-    min-height: 90vh;
-    display: block;
-}
-
-.charla {
-  border-bottom:2px dotted #000000;
-  text-decoration:none;
-  color: black;
+    max-width: 100%;
+    height: auto;
+    min-height: 100vh;
 }
 
 .tarjetas {
@@ -52,7 +47,7 @@ h2 {
 
 .know-content{
     background-color: #343c44;
-    }
+}
 
 .orador {
     margin: auto;
