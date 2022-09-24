@@ -13,8 +13,6 @@ header {
 .imgprincipal{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(ba1.jpg);
     background-size: 100% 100%;
-    max-width: 100%;
-    height: auto;
     min-height: 100vh;
 }
 
