@@ -1,0 +1,13 @@
+.btn-success {
+    background-color: #a7d12d;
+    border: none;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    background-color: #1d4054;
+    justify-content: space-evenly;
+    align-items: center;
+}
